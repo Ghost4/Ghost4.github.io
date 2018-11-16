@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rosin C. NGUEVEU</title>
+    <description>© 2018 Rosin C. NGUEVEU</description>
+    <link>http://0.0.0.0:4000/</link>
+    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 16 Nov 2018 15:06:09 -0400</pubDate>
+    <lastBuildDate>Fri, 16 Nov 2018 15:06:09 -0400</lastBuildDate>
+    <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Local sanitization of data for enhancing fairness through a generative adversarial network approach</title>
+        <description>&lt;h5 id=&quot;urls&quot;&gt;Urls:&lt;/h5&gt;
+&lt;p&gt;Pdf: &lt;a href=&quot;/docs/Projet_these_Rosin_C._NGUEVEU_no_FW.pdf&quot;&gt;&lt;img src=&quot;/images/icons/pdf_24.png&quot; alt=&quot;download pdf&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;arxiv: &lt;a href=&quot;arxiv url&quot;&gt;&lt;img src=&quot;/images/icons/ArXiv_web.svg&quot; alt=&quot;arxiv_url&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Code: &lt;a href=&quot;git url&quot;&gt;&lt;img src=&quot;/images/icons/GitHub-Mark/PNG/GitHub-Mark-32px.png&quot; alt=&quot;code_url&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;abstract&quot;&gt;Abstract&lt;/h5&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The widespread use of automated decision processes in many areas  of  our  society  raises  serious  ethical  issues  with  respect to the fairness of the process and the possible resulting discrimination. In this article, we propose a novel approach called GANSan whose objective is to prevent the possibility of discrimination based on a sensitive attribute by removing the attribute itself as well as the correlations with other attributes, thus protecting against direct as well as indirect discrimination. GANSan is inspired from the powerful framework of generative adversarial networks, which offers a flexible way to learn empirically the distribution of data. One of the strength of our approach is that it can be applied locally by an individual to sanitize his data before disclosing it similarly to randomized response. In addition, this sanitization is performed in the same space as the original data (thus preserving interpretability) by only modifying the other attributes as little as possible. Finally, experiments on real datasets demonstrate the efficiency of the proposed approach as well as the achievable trade-off between fairness and utility.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h5 id=&quot;bibtex&quot;&gt;Bibtex&lt;/h5&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;@techreport{localSanAivodji2018,
+  author =        {Aivodji, Ulrich M. and Bidet, François and Gambs, Sébastien and Ngueveu, Rosin C. and Tapp, Alain},
+  title =         {Local sanitization of data for enhancing fairness through a generative adversarial network approach},
+  keywords=       {GAN, GANSan, Fairness, local sanitization, randomized response},
+  month =         {November},
+  year  =         {2018},
+  pages =         {6},
+}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</description>
+        <pubDate>Mon, 05 Nov 2018 00:00:00 -0400</pubDate>
+        <link>http://0.0.0.0:4000/manuscripts/2018/local-sanitization-of-data</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/manuscripts/2018/local-sanitization-of-data</guid>
+        
+        
+        <category>manuscripts</category>
+        
+      </item>
+    
+      <item>
+        <title>Research project - Transparence et responsabilité des algorithmes de personnalisation</title>
+        <description>&lt;h5 id=&quot;urls&quot;&gt;Urls:&lt;/h5&gt;
+&lt;p&gt;Pdf: &lt;a href=&quot;/docs/Projet_these_Rosin_C._NGUEVEU_no_FW.pdf&quot;&gt;&lt;img src=&quot;/images/icons/pdf_24.png&quot; alt=&quot;download pdf&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;abstract&quot;&gt;Abstract&lt;/h5&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Les avancées récentes dans le domaine de l’apprentissage automatique, ainsi que la disponibilité de grande masse de données ont transformé le paysage actuel, à tel point que les algorithmes d’apprentissage et de personnalisation sont maintenant présents dans quasiment toutes les sphères de notre société. Par exemple, les candidatures sur des postes ouverts en entreprise sont maintenant préfiltrées automatiquement, les outils de prédictions de taux de récidivisme de détenus (COMPAS) sont utilisés de manière courante dans certains comtés aux États-Unis, etc. En plus des atteintes liées au respect de la vie privée qui ne sont plus à démontrer, le développement de ces algorithmes soulève aussi des enjeux éthiques importants. 
+En premier lieu, les données sur lesquelles ces algorithmes sont entraînés peuvent contenir des biais qui seraient reflétés à plus large échelle dans le processus de décision ce qui peut soulever des questions en termes d’équité et discrimination. La littérature fait état de plusieurs approches développées récemment afin de prévenir la discrimination dans l’utilisation des algorithmes qui se différencient en fonction de plusieurs critères en fonction de la définition de discrimination choisie, du point de vue adopté lors du processus d’apprentissage et de l’espace de caractérisation des données. Pour répondre à cette problématique, nous avons développé l’approche « GANSan », qui, tout en préservant la compréhensibilité des données produites en sortie et leur utilité, les assainies de sorte que l’attribut pouvant amener à discrimination ainsi que les corrélations existantes avec les autres attributs du profil sont éliminées. Le second enjeu éthique porte sur la transparence sur les décisions de l’algorithme. En effet, les nouvelles régulations telles que le règlement général européen sur la protection des données offrent aux individus la possibilité de questionner les décisions des algorithmes qui ont un impact important sur leur vie. Ainsi, pouvoir interpréter une décision par exemple en divulguant le « chemin de décision » d’un algorithme devient une nécessité pour les fournisseurs de services. La transparence permet ainsi non seulement de vérifier que des caractéristiques discriminantes sont exclues du processus de décision, mais aussi de renforcer la confiance dans l’algorithme et ses décisions (par exemple dans le contexte médical l’explication sur la raison d’une prédiction faite par l’algorithme est hautement importante).
+Cette thèse se propose de s’attaquer aux deux enjeux sus-cités que sont la non-discrimination et la transparence dans le contexte des algorithmes d’apprentissage. Dans un premier temps, nous nous proposons d’analyser et de concevoir des méthodes permettant de préserver la qualité des données tout en retirant les biais non désirés qui peuvent conduire à discrimination. Nous nous focaliserons tout d’abord sur des approches de quantification de la discrimination tout en étudiant comment ces méthodes peuvent s’articuler avec les définitions de discrimination provenant du droit, de la sociologie et de l’éthique. Ensuite, nous analyserons les méthodes existantes et les adapterons en fonction des définitions préalablement établies. Nous évaluerons pour finir la stabilité de ces approches dans différentes situations. Dans le second axe de recherche qui porte sur la transparence, nous commencerons par étudier et comparer les méthodes garantissant l’interprétabilité. Enfin nous souhaitons nous servir de cette analyse pour développer de nouvelles méthodes pour découvrir et à quantifier la discrimination, notamment en caractérisant l’influence des entrées utilisées par les algorithmes pour prendre leurs décisions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h5 id=&quot;bibtex&quot;&gt;Bibtex&lt;/h5&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;@techreport{researchReport2018Ngueveu,
+  author =        {Ngueveu, Rosin C.}, 
+  title =         {Transparence et Responsabilité des Algorithmes de Personnalisation},
+  institution =   {Departement d'informatique, Universit{\'e} du Qu{\'e}bec {\`a} Montr{\'e}al},
+  keywords=       {Algorithms, Transparency, Fairness, GANSan, Accountability, Interpretability, INF9812},
+  month =         {October},
+  year  =         {2018},
+  author1_email = {ngueveu.rosin_claude@courrier.uqam.ca},
+  pages =         {53},
+}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</description>
+        <pubDate>Thu, 25 Oct 2018 00:00:00 -0300</pubDate>
+        <link>http://0.0.0.0:4000/manuscripts/2018/ResearchProject</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/manuscripts/2018/ResearchProject</guid>
+        
+        
+        <category>manuscripts</category>
+        
+      </item>
+    
+      <item>
+        <title>Bourse d'excellence de recrutement de l'UQAM pour les cycles supérieurs</title>
+        <description>
+</description>
+        <pubDate>Sun, 01 Jan 2017 00:00:00 -0400</pubDate>
+        <link>http://0.0.0.0:4000/awards/2017/bourse-dexcellence-recrutement-uqam</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/awards/2017/bourse-dexcellence-recrutement-uqam</guid>
+        
+        
+        <category>awards</category>
+        
+      </item>
+    
+      <item>
+        <title>Chewybaca is talking in his sleep</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
+
+&lt;p&gt;Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.&lt;/p&gt;
+
+&lt;p&gt;Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.&lt;/p&gt;
+
+&lt;p&gt;Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.&lt;/p&gt;
+
+&lt;p&gt;Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.&lt;/p&gt;
+
+&lt;p&gt;At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.&lt;/p&gt;
+
+&lt;p&gt;Consetetur sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 08 Feb 2016 00:00:00 -0400</pubDate>
+        <link>http://0.0.0.0:4000/blog/banter/thoughts/dreams/fears/2016/Chewbaca-is-talking-in-his-sleep</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/blog/banter/thoughts/dreams/fears/2016/Chewbaca-is-talking-in-his-sleep</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>banter</category>
+        
+        <category>thoughts</category>
+        
+        <category>dreams</category>
+        
+        <category>fears</category>
+        
+      </item>
+    
+  </channel>
+</rss>
